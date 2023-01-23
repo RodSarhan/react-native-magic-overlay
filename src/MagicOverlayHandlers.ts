@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import type { ViewStyle } from 'react-native';
 
-export type OverlayContent = ReactNode;
+export type OverlayContent = React.FC | ReactNode;
 
 export type NewOverlayProps = Partial<{
   backdropStyle: ViewStyle;
